@@ -5,17 +5,26 @@
     padding-left: 2%;
     padding-right: 2%;
   }
-
+  
   .hero-container {
     flex-wrap: wrap;
   }
-  
+
   .hero {
     width: 100%;
   }
 
   .hero-container img {
     width: 100%;
+  }
+
+  .imgs-section-container {
+    flex-wrap: wrap;
+  }
+
+
+  .img-and-caption { 
+    width: 40%;
   }
 }
 
@@ -31,6 +40,10 @@
 
   .hero-container img {
     width: 50%;
+  }
+
+  .img-and-caption { 
+    width: 25%;
   }
 }
 
@@ -132,6 +145,47 @@ button {
 
 .hero-container img {
   border: 2px solid #E5E7EB;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #F9FAF8;
+  gap: 15px;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.info-title {
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.imgs-section-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 15px;
+}
+
+.img-and-caption {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.img-and-caption img {
+  width: 75%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border: 2px solid #3882F6;
+  border-radius: 8px;
 }
 
 .footer {
