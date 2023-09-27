@@ -131,7 +131,7 @@ button {
   border: none;
   padding: 5px;
   height: 25px;
-  width: 90px;
+  width: 100px;
   font-weight: 600;
 }
 
@@ -206,6 +206,8 @@ button {
 .quote-author {
   font-size: 36px;
   color: #1F2937;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .quote-text {
@@ -217,6 +219,44 @@ button {
   text-align: right;
   font-weight: 900;
   width: 100%;
+}
+
+.box-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F9FAF8;
+  gap: 15px;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3882F6;
+  color: #F9FAF8;
+  padding: 7%;
+  border-radius: 8px;
+  gap: 15px;
+}
+
+.box-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
+
+.box-text-bold {
+  font-weight: bold;
+}
+
+.box button {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  border: 2px solid #F9FAF8;
 }
 
 .footer {
